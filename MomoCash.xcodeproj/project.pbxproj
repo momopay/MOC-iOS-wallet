@@ -947,7 +947,6 @@
 				75D5F3BC191EC270004AB296 /* Resources */,
 				BAE12BF71B2DEE7F00895CC5 /* Embed App Extensions */,
 				BA913C021BD57E4E005A7C0E /* Embed Watch Content */,
-				CEE253DB1E26B3B400A25B15 /* Icon Versioning */,
 				FB0ACB9A1F9A99E400F4AB52 /* ShellScript */,
 			);
 			buildRules = (
@@ -1095,20 +1094,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		CEE253DB1E26B3B400A25B15 /* Icon Versioning */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Icon Versioning";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/scripts/icon_versioning.sh\"";
-		};
 		FB0ACB9A1F9A99E400F4AB52 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
